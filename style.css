@@ -1,0 +1,211 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+nav a:visited {
+    color: lightgray;
+}
+
+nav a:active {
+    color: red;
+}
+
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.section p {
+    color: #444;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 300px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+
+
+.project {
+    width: 200px;
+    text-align: center;
+}
+
+.project :hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.project img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.project p {
+    margin-top: 10px;
+}
+
+/* Right sidebar */
+.sidebar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar a {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 40px;        /* collapsed width */
+    text-align: center;
+    transition: all 0.3s;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Expand left on hover */
+.sidebar a:hover {
+    width: 120px;      /* expanded width */
+    background-color: orange;
+}
+
+
+
+/* */
+
+/* Right sidebar */
+.sidebar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar a {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 40px;
+    /* collapsed width */
+    text-align: center;
+    transition: all 0.3s;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Expand left on hover */
+.sidebar a:hover {
+    width: 120px;
+    /* expanded width */
+    background-color: orange;
+}/* Right sidebar */
+.sidebar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar a {
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 40px;
+    /* collapsed width */
+    text-align: center;
+    transition: all 0.3s;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Expand left on hover */
+.sidebar a:hover {
+    width: 120px;
+    /* expanded width */
+    background-color: orange;
+}
+
+/* Right sidebar */
+.sidebar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar a {
+    background-color: #3b185c;
+    color: rgb(232, 211, 185);
+    text-decoration: none;
+    padding: 10px;
+    width: 40px;
+    /* collapsed width */
+    text-align: center;
+    transition: all 0.3s;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Expand left on hover */
+.sidebar a:hover {
+    width: 220px;
+    /* expanded width */
+    background-color: rgb(81, 0, 255);
+}
